@@ -280,6 +280,11 @@ nav.navbar .navbar-toggler-[area-expanded="true"] .navbar-toggler-icon{
   border-right: 0.08em solid #666;
 }
 
+/*Skills*/
+.skill {
+  padding: ;
+}
+
 @keyframes updown{
   0% {
     transform: translateY(-20px);
