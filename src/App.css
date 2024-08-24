@@ -276,7 +276,21 @@ nav.navbar .navbar-toggler-[area-expanded="true"] .navbar-toggler-icon{
   animation: updown 3s linear infinite;
 }
 
+.txt_rotate > .wrap {
+  border-right: 0.08em solid #666;
+}
 
+@keyframes updown{
+  0% {
+    transform: translateY(-20px);
+  }
+  50%{
+    transform: translateY(20px);
+  }
+  100%{
+    transform: translateY(-20px);
+  }
+}
 
 .App {
   text-align: center;
